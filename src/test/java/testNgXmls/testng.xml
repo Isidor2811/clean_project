@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test name="Regression test">
+        <classes>
+            <class name="tests.CheckPageTitleTests">
+                <methods>
+                    <include name="checkDeliveryPageTitle"/>
+                    <include name="checkEstimateDatePageTitle"/>
+                    <include name="checkClosestFilialPageTitle"/>
+                    <include name="checkTimeTablePageTitle"/>
+                    <include name="checkGetCourierPageTitle"/>
+                </methods>
+            </class>
+            <class name="tests.DeliveryCostFormTests">
+                <methods>
+                    <include name="checkSenderCityContainsTenElements"/>
+                    <include name="checkSenderCityContainsSpecialCityName"/>
+                    <include name="checkThatOnlyTwoNumbersAllowedInFloorsInput"/>
+                    <include name="checkThatToolTipAppearsWithCorrectText"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
