@@ -33,7 +33,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${project.basedir}/src/test/resources/testNgXmls/${SUITE}</suiteXmlFile>
+                        <suiteXmlFile>${project.basedir}/src/test/resources/testNgXmls/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

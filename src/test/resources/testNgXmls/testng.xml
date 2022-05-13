@@ -6,18 +6,12 @@
             <class name="tests.CheckPageTitleTests">
                 <methods>
                     <include name="checkDeliveryPageTitle"/>
-                    <include name="checkEstimateDatePageTitle"/>
-                    <include name="checkClosestFilialPageTitle"/>
-                    <include name="checkTimeTablePageTitle"/>
-                    <include name="checkGetCourierPageTitle"/>
                 </methods>
             </class>
             <class name="tests.DeliveryCostFormTests">
                 <methods>
                     <include name="checkSenderCityContainsTenElements"/>
                     <include name="checkSenderCityContainsSpecialCityName"/>
-                    <include name="checkThatOnlyTwoNumbersAllowedInFloorsInput"/>
-                    <include name="checkThatToolTipAppearsWithCorrectText"/>
                 </methods>
             </class>
         </classes>
