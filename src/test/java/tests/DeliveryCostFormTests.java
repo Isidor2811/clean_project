@@ -15,7 +15,7 @@ public class DeliveryCostFormTests extends BaseTest {
         List<String> allSenderCities = openMainPage()
                 .clickOnDeliveryCostMenuItem()
                 .getAllSenderCities();
-        assertThat(allSenderCities, hasSize(10));
+        assertThat(allSenderCities, hasSize(6));
     }
 
     @Test
