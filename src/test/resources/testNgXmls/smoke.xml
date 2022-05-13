@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test name="Regression test">
+        <classes>
+            <class name="tests.CheckPageTitleTests">
+                <methods>
+                    <include name="checkDeliveryPageTitle"/>
+                </methods>
+            </class>
+            <class name="tests.DeliveryCostFormTests">
+                <methods>
+                    <include name="checkSenderCityContainsTenElements"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
